@@ -55,7 +55,7 @@ nav .start-keya, a:nth-child(3):hover~.animation{
 a:nth-child(4){
   width: 160px;
 }
-nav .start-albedo, a:nth-child(4):hover~.animation{
+nav .start-ayato, a:nth-child(4):hover~.animation{
   width: 160px;
   left: 310px;
 }
@@ -67,6 +67,26 @@ nav .start-zhongli, a:nth-child(5):hover~.animation{
   left: 470px;
 }
 #img-Arataki{
+  position: absolute;
+  top: 100px;
+  display: none;
+}
+#img-Diluc{
+  position: absolute;
+  top: 100px;
+  display: none;
+}
+#img-Keya{
+  position: absolute;
+  top: 100px;
+  display: none;
+}
+#img-Ayato{
+  position: absolute;
+  top: 100px;
+  display: none;
+}
+#img-Zhongli{
   position: absolute;
   top: 100px;
   display: none;
