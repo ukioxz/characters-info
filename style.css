@@ -70,24 +70,80 @@ nav .start-zhongli, a:nth-child(5):hover~.animation{
   position: absolute;
   top: 100px;
   display: none;
+  -webkit-animation: slide 0.5s forwards;
+  -webkit-animation-name: run;
+  -webkit-animation-duration: 1s;
 }
+@keyframes run {
+  0% {
+    left: -400px;
+  }
+  100% {
+    left: 0;
+   }
+}
+
 #img-Diluc{
   position: absolute;
   top: 100px;
   display: none;
+  -webkit-animation: slide 0.5s forwards;
+  -webkit-animation-name: run;
+  -webkit-animation-duration: 1s;
+}
+@keyframes run {
+  0% {
+    left: -400px;
+  }
+  100% {
+    left: 0;
+   }
 }
 #img-Keya{
   position: absolute;
   top: 100px;
   display: none;
+  -webkit-animation: slide 0.5s forwards;
+  -webkit-animation-name: run;
+  -webkit-animation-duration: 1s;
+}
+@keyframes run {
+  0% {
+    left: -400px;
+  }
+  100% {
+    left: 0;
+   }
 }
 #img-Ayato{
   position: absolute;
   top: 100px;
   display: none;
+  -webkit-animation: slide 0.5s forwards;
+  -webkit-animation-name: run;
+  -webkit-animation-duration: 1s;
+}
+@keyframes run {
+  0% {
+    left: -400px;
+  }
+  100% {
+    left: 0;
+   }
 }
 #img-Zhongli{
   position: absolute;
   top: 100px;
   display: none;
+  -webkit-animation: slide 0.5s forwards;
+  -webkit-animation-name: run;
+  -webkit-animation-duration: 1s;
+}
+@keyframes run {
+  0% {
+    left: -400px;
+  }
+  100% {
+    left: 0;
+   }
 }
