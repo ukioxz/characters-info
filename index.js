@@ -1,7 +1,3 @@
-window.addEventListener('scroll', function(){
-  document.getElementById('talants').style.opacity = 1;
-  document.getElementById('talants').style.transition = "all 1s";
-});
 function showDivArataki() {
    document.getElementById('img-Arataki').style.display = "block";
    document.getElementById('img-Diluc').style.display = "none";
@@ -16,6 +12,16 @@ function showDivArataki() {
    document.getElementById('info_zhongli').style.display = "none";
 }
 function showDivDiluc() {
+  window.addEventListener('scroll', function(){
+    document.getElementById('normal_attack_diluc').style.opacity = 1;
+    document.getElementById('normal_attack_diluc').style.transition = "all 1s";
+    document.getElementById('charged_attack_diluc').style.opacity = 1;
+    document.getElementById('charged_attack_diluc').style.transition = "all 1s";
+    document.getElementById('elemental_skills_diluc').style.opacity = 1;
+    document.getElementById('elemental_skills_diluc').style.transition = "all 1s";
+    document.getElementById('ultimate_diluc').style.opacity = 1;
+    document.getElementById('ultimate_diluc').style.transition = "all 1s";
+  });
    document.getElementById('img-Arataki').style.display = "none";
    document.getElementById('img-Diluc').style.display = "block";
    document.getElementById('img-Keya').style.display = "none";

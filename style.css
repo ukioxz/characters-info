@@ -203,23 +203,81 @@ nav .start-zhongli, a:nth-child(5):hover~.animation{
     left: -300px;
    }
 }
-#talants{
+#normal_attack_diluc{
   position: absolute;
-  top: 500px;
+  margin-top: 200px;
+  left: -300px;
   width: 100%;
   height: 1200px;
   opacity: 0;
-  /*-webkit-animation: slide 0.5s forwards;
-  -webkit-animation-name: run_talants;
-  -webkit-animation-duration: 4s;
 }
-@keyframes run_talants {
-  0% {
-    opacity: 0.2;
-    left: -400px;
-  }
-  100% {
-    opacity: 1.0;
-    left: -300px;
-   }
-}*/
+#charged_attack_diluc{
+  position: absolute;
+  margin-top: 600px;
+  left: -300px;
+  opacity: 0;
+}
+#charged_img_diluc{
+  width: 480px;
+  height: 270px;
+}
+#elemental_skills_diluc{
+  position: absolute;
+  margin-top: 1000px;
+  left: -300px;
+  opacity: 0;
+}
+#elemental_img_diluc{
+  width: 480px;
+  height: 270px;
+}
+#ultimate_diluc{
+  position: absolute;
+  height: 400px;
+  margin-top: 1400px;
+  left: -300px;
+  opacity: 0;
+}
+#ultimate_img_diluc{
+  width: 480px;
+  height: 270px;
+}
+#talant1_diluc{
+  position: absolute;
+  margin-left: 100px;
+  margin-top: 20px;
+  width: 400px;
+  color: white;
+  font-size: 21px;
+  font-family: Ubuntu;
+  text-align: center;
+}
+#talant2_diluc{
+  position: absolute;
+  margin-left: 100px;
+  margin-top: 20px;
+  width: 400px;
+  color: white;
+  font-size: 21px;
+  font-family: Ubuntu;
+  text-align: center;
+}
+#talant3_diluc{
+  position: absolute;
+  margin-left: 100px;
+  margin-top: 20px;
+  width: 400px;
+  color: white;
+  font-size: 21px;
+  font-family: Ubuntu;
+  text-align: center;
+}
+#talant4_diluc{
+  position: absolute;
+  margin-left: 100px;
+  width: 450px;
+  color: white;
+  font-size: 21px;
+  font-family: Ubuntu;
+  text-align: center;
+}
