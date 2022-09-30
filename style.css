@@ -108,9 +108,11 @@ nav .start-zhongli, a:nth-child(5):hover~.animation{
 }
 @keyframes run {
   0% {
+    opacity: 0.2;
     left: -400px;
   }
   100% {
+    opacity: 1.0;
     left: 0;
    }
 }
