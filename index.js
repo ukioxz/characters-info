@@ -1,3 +1,7 @@
+window.addEventListener('scroll', function(){
+  document.getElementById('talants').style.opacity = 1;
+  document.getElementById('talants').style.transition = "all 1s";
+});
 function showDivArataki() {
    document.getElementById('img-Arataki').style.display = "block";
    document.getElementById('img-Diluc').style.display = "none";
