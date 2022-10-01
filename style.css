@@ -281,3 +281,83 @@ nav .start-zhongli, a:nth-child(5):hover~.animation{
   font-family: Ubuntu;
   text-align: center;
 }
+
+#normal_attack_itto{
+  position: absolute;
+  margin-top: 200px;
+  left: -300px;
+  width: 100%;
+  height: 1200px;
+  opacity: 0;
+}
+#charged_attack_itto{
+  position: absolute;
+  margin-top: 600px;
+  left: -300px;
+  opacity: 0;
+}
+#charged_img_itto{
+  width: 480px;
+  height: 270px;
+}
+#normal_img_itto{
+  width: 480px;
+  height: 270px;
+}
+#elemental_skills_itto{
+  position: absolute;
+  margin-top: 1000px;
+  left: -300px;
+  opacity: 0;
+}
+#elemental_img_itto{
+  width: 480px;
+  height: 270px;
+}
+#ultimate_itto{
+  position: absolute;
+  height: 500px;
+  margin-top: 1700px;
+  left: -300px;
+  opacity: 0;
+}
+#ultimate_img_itto{
+  width: 480px;
+  height: 270px;
+}
+#talant1_itto{
+  position: absolute;
+  margin-left: 100px;
+  width: 400px;
+  color: white;
+  font-size: 21px;
+  font-family: Ubuntu;
+  text-align: center;
+}
+#talant2_itto{
+  position: absolute;
+  margin-left: 100px;
+  width: 400px;
+  color: white;
+  font-size: 21px;
+  font-family: Ubuntu;
+  text-align: center;
+}
+#talant3_itto{
+  position: absolute;
+  margin-left: 100px;
+  width: 400px;
+  color: white;
+  font-size: 21px;
+  font-family: Ubuntu;
+  text-align: center;
+}
+#talant4_itto{
+  position: absolute;
+  margin-left: 100px;
+  width: 450px;
+  color: white;
+  font-size: 21px;
+  font-family: Ubuntu;
+  text-align: center;
+}
