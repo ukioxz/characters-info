@@ -1,6 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&family=Ubuntu:wght@700&display=swap');
 body{
-  background: #2c3e50;
+  background-image:url(img/background/back_mond.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#blur_form{
+  top:0;
+  left:0;
+  position: fixed;
+  height: 1080px;
+  width: 1920px;
+  backdrop-filter: blur(5px);
 }
 nav{
   position: relative;
@@ -67,13 +82,6 @@ a:nth-child(5){
 nav .start-zhongli, a:nth-child(5):hover~.animation{
   width: 120px;
   left: 470px;
-}
-#background_form{
-  border-radius: 15px;
-  background-color:#4D6F9E;
-  margin-left: -300px;
-  width: 1200px;
-  height: 2800px;
 }
 #img-Arataki{
   position: absolute;
