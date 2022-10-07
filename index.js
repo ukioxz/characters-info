@@ -45,6 +45,16 @@ function showDivDiluc() {
    document.getElementById('info_ayato').style.display = "none";
    document.getElementById('info_zhongli').style.display = "none";
 
+   document.getElementById('name_diluc').style.display = "block";
+   document.getElementById('name_diluc_black').style.display = "block";
+   document.getElementById('name_diluc_jap_black').style.display = "block";
+   document.getElementById('name_diluc_jap_white').style.display = "block";
+   document.getElementById('name_diluc_jap_white_shadow').style.display = "block";
+   document.getElementById('diluc_desc').style.display = "block";
+   document.getElementById('diluc_desc_jap').style.display = "block";
+   document.getElementById('diluc_desc_talants1').style.display = "block";
+   document.getElementById('diluc_desc_talants2').style.display = "block";
+
    document.getElementById('parallelogram_1').style.background = "red";
 }
 function showDivKeya() {
