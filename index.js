@@ -44,6 +44,8 @@ function showDivDiluc() {
    document.getElementById('info_keya').style.display = "none";
    document.getElementById('info_ayato').style.display = "none";
    document.getElementById('info_zhongli').style.display = "none";
+
+   document.getElementById('parallelogram_1').style.background = "red";
 }
 function showDivKeya() {
    document.getElementById('img-Arataki').style.display = "none";
@@ -57,6 +59,8 @@ function showDivKeya() {
    document.getElementById('info_keya').style.display = "block";
    document.getElementById('info_ayato').style.display = "none";
    document.getElementById('info_zhongli').style.display = "none";
+
+   document.getElementById('parallelogram_1').style.background = "blue";
 }
 function showDivAyato() {
    document.getElementById('img-Arataki').style.display = "none";

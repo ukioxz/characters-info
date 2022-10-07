@@ -19,13 +19,14 @@ body{
 }
 nav{
   position: relative;
-  margin: 20px auto 0;
+  margin: 5px auto 0;
   width: 590px;
   height: 50px;
   background: #34495e;
   border-radius: 8px;
   font-size: 0;
   box-shadow: 0 2px 3px 0 rgba(0, 0, 0, .1);
+  z-index: 2;
 }
 nav a{
   font-size: 15px;
@@ -35,7 +36,7 @@ nav a{
   text-decoration: none;
   line-height: 50px;
   position: relative;
-  z-index: 1;
+  z-index: 2;
   display: inline-block;
   text-align: center;
 }
@@ -43,7 +44,7 @@ nav .animation{
   position: absolute;
   height: 5px;
   bottom: 0;
-  z-index: 0;
+  z-index: 1;
   background: #1abc9c;
   border-radius: 8px;
   transition: all .5s ease 0s;
@@ -93,19 +94,32 @@ nav .start-zhongli, a:nth-child(5):hover~.animation{
 }
 #img-Diluc{
   position: absolute;
-  top: 100px;
+  top: 20px;
   display: none;
+  z-index: 2;
   -webkit-animation: slide 0.5s forwards;
-  -webkit-animation-name: run;
+  -webkit-animation-name: run-keya;
   -webkit-animation-duration: 1s;
+}
+#img_diluc_size{
+  margin-left: 100px;
+  width: 900px;
+  height: 920px;
 }
 #img-Keya{
   position: absolute;
-  top: 100px;
+  top: 0;
+  width:  70%;
+  height: 70%;
   display: none;
   -webkit-animation: slide 0.5s forwards;
-  -webkit-animation-name: run;
+  -webkit-animation-name: run-keya;
   -webkit-animation-duration: 1s;
+}
+#img_keya_size{
+  /*width:  270%;
+  height: 270%;*/
+  margin-left: -200px;
 }
 #img-Ayato{
   position: absolute;
@@ -132,6 +146,59 @@ nav .start-zhongli, a:nth-child(5):hover~.animation{
     opacity: 1.0;
     left: 200px;
    }
+}
+@keyframes run-keya {
+  0% {
+    opacity: 0.2;
+    left: -400px;
+  }
+  100% {
+    opacity: 1.0;
+    left: -100px;
+   }
+}
+#parallelogram_1{
+  position: fixed;
+  width: 900px;
+	height: 720px;
+  top: 0;
+  left: 200px;
+	transform: skew(160deg);
+	opacity: 0.7;
+  z-index: 1;
+}
+#parallelogram_2{
+  position: fixed;
+  width: 500px;
+	height: 720px;
+  top: 0;
+  left: 1500px;
+	transform: skew(160deg);
+  background: red;
+	opacity: 0.7;
+  z-index: 1;
+}
+#parallelogram_3{
+  position: fixed;
+  width: 30px;
+	height: 300px;
+  top: 0;
+  left: 210px;
+	transform: skew(160deg);
+  background: red;
+	opacity: 0.7;
+  z-index: 1;
+}
+#parallelogram_4{
+  position: fixed;
+  width: 30px;
+	height: 550px;
+  top: 250px;
+  left: 1120px;
+	transform: skew(160deg);
+  background: red;
+	opacity: 0.7;
+  z-index: 1;
 }
 #info_itto{
   position: absolute;
