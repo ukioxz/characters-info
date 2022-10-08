@@ -23,7 +23,7 @@ function showDivArataki() {
    document.getElementById('info_zhongli').style.display = "none";
 }
 function showDivDiluc() {
-  window.addEventListener('scroll', function(){
+  /*window.addEventListener('scroll', function(){
     document.getElementById('normal_attack_diluc').style.opacity = 1;
     document.getElementById('normal_attack_diluc').style.transition = "all 1s";
     document.getElementById('charged_attack_diluc').style.opacity = 1;
@@ -32,7 +32,25 @@ function showDivDiluc() {
     document.getElementById('elemental_skills_diluc').style.transition = "all 1s";
     document.getElementById('ultimate_diluc').style.opacity = 1;
     document.getElementById('ultimate_diluc').style.transition = "all 1s";
-  });
+  });*/
+
+  function reveal() {
+    let reveals = document.querySelectorAll(".reveal");
+
+    for (let i = 0; i < reveals.length; i++) {
+      let windowHeight = window.innerHeight;
+      let elementTop = reveals[i].getBoundingClientRect().top;
+      let elementVisible = 150;
+
+      if (elementTop < windowHeight - elementVisible) {
+        reveals[i].classList.add("active");
+      } else {
+        reveals[i].classList.remove("active");
+      }
+    }
+  }
+
+  window.addEventListener("scroll", reveal);
    document.getElementById('img-Arataki').style.display = "none";
    document.getElementById('img-Diluc').style.display = "block";
    document.getElementById('img-Keya').style.display = "none";
