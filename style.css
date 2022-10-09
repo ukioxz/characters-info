@@ -3,6 +3,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Londrina+Shadow&family=Noto+Sans+JP:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=BIZ+UDGothic:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+}
 body{
   background-image:url(img/background/back_mond.jpg);
   background-repeat: no-repeat;
@@ -27,13 +32,39 @@ body{
   transform: translateY(150px);
   opacity: 0;
   transition: 1s all ease;
-  z-index: 2;
+  z-index: 4;
 }
 
 .reveal.active{
   transform: translateY(0);
   opacity: 1;
-  z-index: 2;
+  z-index: 4;
+}
+.active.fade-right {
+  animation: fade-right 1s ease-in;
+}
+.active.fade-left {
+  animation: fade-left 1s ease-in;
+}
+@keyframes fade-left {
+  0% {
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes fade-right {
+  0% {
+    transform: translateX(20px);
+    opacity: 0.7;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
 }
 nav{
   position: relative;
@@ -309,21 +340,6 @@ nav .start-zhongli, a:nth-child(5):hover~.animation{
   -webkit-animation-name: run_info;
   -webkit-animation-duration: 1s;
 }
-#diluc_desc{
-  position: absolute;
-  top: 800px;
-  width: 900px;
-  height: 200px;
-  background-color: #B82D28;
-  z-index: 2;
-}
-#diluc_desc_jap{
-  color: black;
-  font-size: 30px;
-  font-family: BIZ UDGothic;
-  text-align: center;
-}
-
 #diluc_desc_talants1{
   position: absolute;
   top: 10px;
@@ -428,12 +444,69 @@ nav .start-zhongli, a:nth-child(5):hover~.animation{
 }
 #back_scroll{
   position: fixed;
-  background-color: pink;
+  background-color: #470c0e;
   margin-top: 800px;
+  right:0;
   left:0;
-  width: 100vw;
+  width:auto;
   height: 100vh;
-  z-index: 10;
+  z-index: 3;
+  padding-top: 300px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#back_scroll_img{
+  width: 100%;
+  height: 115%;
+}
+#desc_skin{
+  position: absolute;
+  right:50px;
+  width:470px;
+  top:-70px;
+  color: white;
+  font-size: 16px;
+  font-family: Playfair Display;
+  z-index: 4;
+  padding: 5px;
+}
+#back_desc_skin{
+  position: fixed;
+  right:50px;
+  width: 500px;
+  top:-70px;
+  height: 100px;
+  transform: skew(150deg);
+  background:linear-gradient(to right, #470c0e,60%, #0f0202);
+  opacity: 1;
+  z-index: 1;
+  /*box-shadow: 0 0 5px 10px #470c0e;*/
+  box-shadow: -10px 0px 10px 5px #470c0e, 10px 0px 10px 5px #0f0202;
+}
+#decor_header_diluc_skin{
+  position: fixed;
+  right:660px;
+  top:850px;
+  color: white;
+  font-size: 160px;
+  font-family:BIZ UDGothic;
+  z-index: 4;
+  opacity:0.3;
+  padding: 5px;
+}
+#header_diluc_skin{
+  position: fixed;
+  right:660px;
+  top:980px;
+  color: white;
+  font-size: 100px;
+  font-family: Playfair Display;
+  z-index: 4;
+  padding: 5px;
 }
 #normal_attack_diluc{
   position: absolute;

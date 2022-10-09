@@ -51,6 +51,7 @@ function showDivDiluc() {
   }
 
   window.addEventListener("scroll", reveal);
+
    document.getElementById('img-Arataki').style.display = "none";
    document.getElementById('img-Diluc').style.display = "block";
    document.getElementById('img-Keya').style.display = "none";
@@ -68,8 +69,6 @@ function showDivDiluc() {
    document.getElementById('name_diluc_jap_black').style.display = "block";
    document.getElementById('name_diluc_jap_white').style.display = "block";
    document.getElementById('name_diluc_jap_white_shadow').style.display = "block";
-   document.getElementById('diluc_desc').style.display = "block";
-   document.getElementById('diluc_desc_jap').style.display = "block";
    document.getElementById('diluc_desc_talants1').style.display = "block";
    document.getElementById('diluc_desc_talants2').style.display = "block";
 
