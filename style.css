@@ -33,13 +33,13 @@ body{
   transform: translateY(150px);
   opacity: 0;
   transition: 1s all ease;
-  z-index: 4;
+  z-index: 11;
 }
 
 .reveal.active{
   transform: translateY(0);
   opacity: 1;
-  z-index: 4;
+  z-index: 11;
 }
 .active.fade-right {
   animation: fade-right 1s ease-in;
@@ -550,6 +550,34 @@ nav .start-zhongli, a:nth-child(5):hover~.animation{
   margin-top:620px;
 	transform: rotate(35deg);
   z-index: 10;
+}
+#back_ava_build{
+  width: 304px;
+	height: 473px;
+  z-index: 11;
+  margin-top: 120px;
+}
+#back_ava_build:hover{
+  /*border-radius: 20px;*/
+  box-shadow: 0px 0px 10px 1px white;
+  transition: 0.5s;
+  margin-top: 110px;
+}
+#detailed_block_diluc{
+  position: fixed;
+  z-index: 12;
+  margin-top: 500px;
+  left: 600px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #470c0e;
+}
+#detailed_block_diluc:hover{
+  width: 240px;
+  height: 40px;
+  border-radius: 80px;
+  transition: 0.5s;
 }
 #normal_attack_diluc{
   position: absolute;
