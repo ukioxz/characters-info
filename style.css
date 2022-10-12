@@ -18,6 +18,7 @@ body{
   -o-background-size: cover;
   background-size: cover;
   z-index: -2;
+  overflow-x:hidden;
 }
 #blur_form{
   top:0;
@@ -507,6 +508,48 @@ nav .start-zhongli, a:nth-child(5):hover~.animation{
   font-family: Playfair Display;
   z-index: 4;
   padding: 5px;
+}
+#back_scroll_build{
+  background-color: #1B1B1B;
+  position: absolute;
+  margin-top: 1920px;
+  right:0;
+  left:0;
+  width:auto;
+  height: 800px;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+}
+#back_opacity_diluc_build{
+  position: fixed;
+  min-width: 60%;
+	min-height: 60%;
+  left: 290px;
+  margin-top: -460px;
+	transform: rotate(-55deg);
+  opacity: 0.1;
+  z-index: 10;
+}
+#build_parallelogram_1{
+  position: fixed;
+  background-color: #942d26;
+  width: 900px;
+	height: 270px;
+  right: -400px;
+  margin-top: -50px;
+	transform: rotate(35deg);
+  z-index: 10;
+}
+#build_parallelogram_2{
+  position: fixed;
+  background-color: #942d26;
+  width: 900px;
+	height: 270px;
+  left:-300px;
+  margin-top:620px;
+	transform: rotate(35deg);
+  z-index: 10;
 }
 #normal_attack_diluc{
   position: absolute;

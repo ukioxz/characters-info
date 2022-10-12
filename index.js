@@ -73,6 +73,7 @@ function showDivDiluc() {
    document.getElementById('diluc_desc_talants2').style.display = "block";
 
    document.getElementById('parallelogram_1').style.background = "red";
+
 }
 function showDivKeya() {
    document.getElementById('img-Arataki').style.display = "none";
