@@ -4,6 +4,9 @@
 @import url('https://fonts.googleapis.com/css2?family=BIZ+UDGothic:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 *{
   margin: 0;
   padding: 0;
@@ -575,6 +578,7 @@ nav .start-zhongli, a:nth-child(5):hover~.animation{
   z-index: 12;
   display: flex;
   justify-content: center;
+  text-align: center;
 }
 #img_back_story1{
   position: fixed;
@@ -583,6 +587,16 @@ nav .start-zhongli, a:nth-child(5):hover~.animation{
   left:0;
   width:100%;
   opacity:0.1;
+}
+#red_sq1{
+  position: fixed;
+  margin-top: 20px;
+  /*left: 100px;*/
+  right: 240px;
+  width:200px;
+  height: 200px;
+  background-color: #470c0e;
+  transition: 0.5s;
 }
 #img_story1_1{
   position: fixed;
@@ -617,20 +631,39 @@ nav .start-zhongli, a:nth-child(5):hover~.animation{
   pointer-events : none;
 }
 #img_story1_1:hover{
-  width: 400px;
-  height: auto;
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
 }
 #img_story1_2:hover{
-  width: 350px;
-  height: auto;
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
 }
-#story1_text_1{
+#story1_text h2{
   margin-top: 100px;
   position: fixed;
   color: white;
   font-size: 84px;
-  font-family: Ubuntu;
+  font-family: Open Sans;
   left: 400px;
+}
+#story1_text h3{
+  margin-top: 330px;
+  position: fixed;
+  color: white;
+  font-size: 18px;
+  width: 700px;
+  font-family: Poppins;
+  right: -700px;
+}
+#line1{
+  position: fixed;
+  margin-top: 260px;
+  width:500px;
+  height: 5px;
+  right: -600px;
+  background-color: white;
 }
 #back_story2{
   margin-top: 720px;
@@ -643,6 +676,31 @@ nav .start-zhongli, a:nth-child(5):hover~.animation{
   width:100%;
   opacity:0.1;
 }
+#story2_text h2{
+  margin-top: 200px;
+  position: fixed;
+  color: white;
+  font-size: 84px;
+  font-family: Open Sans;
+  right: 300px;
+}
+#story2_text h3{
+  margin-top: 400px;
+  position: fixed;
+  color: white;
+  font-size: 18px;
+  width: 700px;
+  font-family: Poppins;
+  right: -50px;
+}
+#line2{
+  position: fixed;
+  margin-top: 350px;
+  width:500px;
+  height: 5px;
+  right:0;
+  background-color: white;
+}
 #back_story3{
   margin-top: 1440px;
 }
@@ -653,6 +711,16 @@ nav .start-zhongli, a:nth-child(5):hover~.animation{
   left:0;
   width:100%;
   opacity:0.1;
+}
+#red_sq3{
+  position: fixed;
+  margin-top: 220px;
+  /*left: 100px;*/
+  right: 300px;
+  width:200px;
+  height: 200px;
+  background-color: #470c0e;
+  transition: 0.5s;
 }
 #img_story3_2{
   position: fixed;
@@ -673,12 +741,14 @@ nav .start-zhongli, a:nth-child(5):hover~.animation{
   transition: 0.5s;
 }
 #img_story3_2:hover{
-  width: 400px;
-  height: auto;
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
 }
 #img_story3_1:hover{
-  width: 320px;
-  height: auto;
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
 }
 #border_3{
   position: fixed;
@@ -693,6 +763,31 @@ nav .start-zhongli, a:nth-child(5):hover~.animation{
   border-style: solid;
   z-index: 13;
   pointer-events : none;
+}
+#story3_text h2{
+  margin-top: 250px;
+  position: fixed;
+  color: white;
+  font-size: 84px;
+  font-family: Open Sans;
+  left: 400px;
+}
+#story3_text h3{
+  margin-top: 430px;
+  position: fixed;
+  color: white;
+  font-size: 18px;
+  width: 700px;
+  font-family: Poppins;
+  right: -700px;
+}
+#line3{
+  position: fixed;
+  margin-top: 400px;
+  width:500px;
+  height: 5px;
+  right: -600px;
+  background-color: white;
 }
 
 #normal_attack_diluc{
