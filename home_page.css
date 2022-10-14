@@ -7,6 +7,20 @@
     object-fit: cover;
 
 }
+#diluc:hover{
+  background-color: black;
+  transition: 0.7s;
+}
+#button{
+  position: fixed;
+  top: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 200px;
+  background-color: white;
+}
 section{
   min-height: 100vh;
   display: flex;
@@ -28,7 +42,9 @@ section:nth-child(4){
   background: #e0ffff;
 }
 section .container{
-  margin: 100px;
+  margin-top: 800px;
+  margin-right: 0;
+  margin-left: 0;
 }
 section h1{
   font-size: 3rem;
@@ -43,9 +59,10 @@ section .text-container{
    display: flex;
 }
 section .text-container .text-box{
-  margin: 20px;
+  margin: 0;
   padding: 20px;
-  height: 500px;
+  height: 100vh;
+  box-shadow: 0px 0px 0px 1px white;
   background: #00c2cb;
 }
 section .text-container .text-box h3{
