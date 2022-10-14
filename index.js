@@ -52,6 +52,15 @@ function showDivDiluc() {
 
   window.addEventListener("scroll", reveal);
 
+  const backAva = document.getElementById('back_ava_build')
+
+    backAva.addEventListener('click', (event) => {
+      window.scrollTo({
+      top: 2720,
+      behavior: "smooth"
+  });
+    });
+
    document.getElementById('img-Arataki').style.display = "none";
    document.getElementById('img-Diluc').style.display = "block";
    document.getElementById('img-Keya').style.display = "none";

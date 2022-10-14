@@ -15,11 +15,12 @@ function reveal() {
 }
 
 window.addEventListener("scroll", reveal);
+
 const bt1 = document.getElementById('button')
 
   bt1.addEventListener('click', (event) => {
     window.scrollTo({
-    top: 1000,
+    top: 800,
     behavior: "smooth"
 });
   });
