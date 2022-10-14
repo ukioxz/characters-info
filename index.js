@@ -56,7 +56,7 @@ function showDivDiluc() {
 
     backAva.addEventListener('click', (event) => {
       window.scrollTo({
-      top: 2720,
+      top: 2780,
       behavior: "smooth"
   });
     });
