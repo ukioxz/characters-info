@@ -24,3 +24,15 @@ const bt1 = document.getElementById('button')
     behavior: "smooth"
 });
   });
+
+let elemAyato = document.getElementById('ayato');
+let videoAyato = document.getElementById('video-ayato');
+let imgAyato = document.getElementById('img_ayato_home');
+elemAyato.onmouseover = function () {
+        videoAyato.style.display = "block";
+        imgAyato.style.display = "none";
+    };
+elemAyato.onmouseleave = function () {
+        videoAyato.style.display = "none";
+        imgAyato.style.display = "block";
+        }

@@ -12,15 +12,36 @@
 
 }
 #video-ayato{
+  position: relative;
   width: auto;
   height: 100%;
   max-width: 100%;
   object-fit: cover;
+  display: none;
+  transition: 0.5s;
+  z-index: 2;
+}
+#img_ayato_home{
+  position: relative;
+  width: auto;
+  height: 100%;
+  max-width: 100%;
+  object-fit: cover;
+  z-index: 1;
+  display: block;
 }
 #diluc:hover{
   background-color: black;
   transition: 0.7s;
 }
+#ayato{
+  margin-top: 0;
+  transition: 0.5s;
+}
+/*#ayato:hover #video-ayato{
+  display:block;
+  z-index: 1;
+}*/
 #button{
   position: fixed;
   top: 300px;
@@ -91,7 +112,6 @@ section .text-container .text-box h3{
     flex-direction: column;
   }
 }
-
 .reveal{
   position: relative;
   transform: translateY(150px);
