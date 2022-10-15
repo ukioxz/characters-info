@@ -694,6 +694,40 @@ nav .start-zhongli, a:nth-child(5):hover~.animation{
   height: auto;
   transition: 0.5s;
 }
+#border_2{
+  position: fixed;
+  /*left: 170px;*/
+  left: 200px;
+  margin-top: 170px;
+  width: 400px;
+  height: 600px;
+  border-width: 4px;
+  border-color: white;
+  /*display: inline-block;*/
+  border-style: solid;
+  z-index: 13;
+  pointer-events : none;
+}
+#img_story2_1:hover{
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+#img_story2_2:hover{
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+#red_sq2{
+  position: fixed;
+  margin-top: 240px;
+  /*left: 100px;*/
+  left: 80px;
+  width:400px;
+  height: 500px;
+  background-color: #470c0e;
+  transition: 0.5s;
+}
 #story2_text h2{
   margin-top: 200px;
   position: fixed;
