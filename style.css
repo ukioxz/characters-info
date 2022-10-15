@@ -676,6 +676,24 @@ nav .start-zhongli, a:nth-child(5):hover~.animation{
   width:100%;
   opacity:0.1;
 }
+#img_story2_1{
+  position: fixed;
+  margin-top: 150px;
+  /*left: 100px;*/
+  left: 320px;
+  width: 350px;
+  height: auto;
+  transition: 0.5s;
+}
+#img_story2_2{
+  position: fixed;
+  margin-top: 270px;
+  /*left: 100px;*/
+  left: 120px;
+  width: 320px;
+  height: auto;
+  transition: 0.5s;
+}
 #story2_text h2{
   margin-top: 200px;
   position: fixed;
