@@ -25,7 +25,7 @@ const bt1 = document.getElementById('button')
 });
   });
 
-let elemAyato = document.getElementById('ayato');
+/*let elemAyato = document.getElementById('ayato');
 let videoAyato = document.getElementById('video-ayato');
 let imgAyato = document.getElementById('img_ayato_home');
 elemAyato.onmouseover = function () {
@@ -36,3 +36,4 @@ elemAyato.onmouseleave = function () {
         videoAyato.style.display = "none";
         imgAyato.style.display = "block";
         }
+*/
