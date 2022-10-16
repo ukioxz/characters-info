@@ -19,6 +19,7 @@
   object-fit: cover;
   display: none;
   z-index: 2;
+  opacity: 0.5;
   -webkit-animation-name: runVideo;
   -webkit-animation-duration: 1s;
 }
@@ -30,6 +31,7 @@
   object-fit: cover;
   display: none;
   z-index: 2;
+  opacity: 0.5;
   -webkit-animation-name: runVideo;
   -webkit-animation-duration: 1s;
 }
@@ -38,7 +40,7 @@
     opacity: 0;;
   }
   100% {
-    opacity: 1.0;
+    opacity: 0.5;
    }
 }
 #img_ayato_home{
@@ -67,6 +69,15 @@
   object-fit: cover;
   z-index: 1;
   display: block;
+}
+#zhongli_info{
+  position: fixed;
+  top: 100px;
+  color: white;
+  font-size: 32px;
+  z-index: 3;
+  display: block;
+  top: 50%;
 }
 #img_diluc_home{
   position: relative;
