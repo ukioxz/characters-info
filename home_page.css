@@ -71,13 +71,12 @@
   display: block;
 }
 #zhongli_info{
-  position: fixed;
-  top: 100px;
+  position: relative;
+  bottom:50%;
   color: white;
   font-size: 32px;
   z-index: 3;
   display: block;
-  top: 50%;
 }
 #img_diluc_home{
   position: relative;
@@ -129,6 +128,7 @@ section{
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 section:nth-child(1){
   color: black;
@@ -169,6 +169,9 @@ section .text-container .text-box{
   box-shadow: 0px 0px 0px 1px white;
   background: black;
   cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 section .text-container .text-box h3{
   font-size: 30px;
