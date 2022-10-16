@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
 *{
   padding: 0;
   margin: 0;
@@ -43,6 +44,16 @@
     opacity: 0.5;
    }
 }
+@keyframes runText {
+  0% {
+    opacity: 0;
+    bottom:40%
+  }
+  100% {
+    opacity: 0.5;
+    bottom:50%;
+   }
+}
 #img_ayato_home{
   position: relative;
   width: 100%;
@@ -73,10 +84,13 @@
 #zhongli_info{
   position: relative;
   bottom:50%;
+  font-family: Open Sans;
   color: white;
   font-size: 32px;
   z-index: 3;
-  display: block;
+  display: none;
+  -webkit-animation-name: runText;
+  -webkit-animation-duration: 1s;
 }
 #img_diluc_home{
   position: relative;
@@ -109,6 +123,9 @@
 #zhongli:hover #video-zhongli{
   display:block;
   z-index: 1;
+}
+#zhongli:hover #zhongli_info{
+  display:block;
 }
 #zhongli:hover #img_zhongli_home{
   display:none;
