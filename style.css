@@ -53,6 +53,7 @@ body{
 .active.transform-left{
   animation: transform-left 1s ease-in-out;
 }
+
 @keyframes fade-left {
   0% {
     transform: translateX(-100px);
@@ -461,14 +462,14 @@ nav .start-zhongli, a:nth-child(5):hover~.animation{
 }
 #back_scroll{
   position: fixed;
-  background-color: #470c0e;
+  background-color:#1B1B1B;
   margin-top: 800px;
   right:0;
   left:0;
   width:auto;
   height: 100vh;
   z-index: 3;
-  padding-top: 300px;
+  padding-top: 0;
   padding-left: 0;
   padding-right: 0;
   padding-bottom: 100px;
@@ -480,9 +481,27 @@ nav .start-zhongli, a:nth-child(5):hover~.animation{
   position: relative;
   width:auto;
   height:200px;
-  background-color: pink;
-  margin-left:0;
+  background-color: #470c0e;
 }
+.anim_block2{
+  position: relative;
+  width:auto;
+  height:200px;
+  background-color: #470c0e;
+}
+.anim_block3{
+  position: relative;
+  width:auto;
+  height:200px;
+  background-color: #470c0e;
+}
+.anim_block4{
+  position: relative;
+  width:auto;
+  height:200px;
+  background-color: #470c0e;
+}
+
 /*#back_scroll_img{
   width: 100%;
   height: 115%;
