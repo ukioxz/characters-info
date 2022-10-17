@@ -469,10 +469,10 @@ nav .start-zhongli, a:nth-child(5):hover~.animation{
   width:auto;
   height: 100vh;
   z-index: 3;
-  padding-top: 0;
+  padding-top: 200px;
   padding-left: 0;
   padding-right: 0;
-  padding-bottom: 100px;
+  padding-bottom: 200px;
   /*display: flex;
   justify-content: center;
   align-items: center;*/
@@ -482,24 +482,28 @@ nav .start-zhongli, a:nth-child(5):hover~.animation{
   width:auto;
   height:200px;
   background-color: #470c0e;
+  z-index: 4;
 }
 .anim_block2{
   position: relative;
   width:auto;
   height:200px;
   background-color: #470c0e;
+  z-index: 4;
 }
 .anim_block3{
   position: relative;
   width:auto;
   height:200px;
   background-color: #470c0e;
+  z-index: 4;
 }
 .anim_block4{
   position: relative;
   width:auto;
   height:200px;
   background-color: #470c0e;
+  z-index: 4;
 }
 
 /*#back_scroll_img{
@@ -520,11 +524,11 @@ nav .start-zhongli, a:nth-child(5):hover~.animation{
 #header_diluc_skin{
   position: fixed;
   right:660px;
-  top:980px;
+  top:100px;
   color: white;
   font-size: 100px;
   font-family: Playfair Display;
-  z-index: 4;
+  z-index: 5;
   padding: 5px;
 }
 #back_scroll_build{
@@ -569,19 +573,43 @@ nav .start-zhongli, a:nth-child(5):hover~.animation{
 	transform: rotate(35deg);
   z-index: 10;
 }
-#back_ava_build{
+#card2{
+  position: relative;
+  padding: 0;
   width: 304px;
 	height: 473px;
-  z-index: 11;
+  z-index: 10;
   margin-top: 120px;
   transition: 0.5s;
+  background-color: pink;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
-#back_ava_build:hover{
-  /*border-radius: 20px;*/
+#back_ava_build{
+  transition: 0.5s;
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-height: 100%;
+  /*max-width: 100%;*/
+  object-fit: cover;
+}
+#card2:hover{
   box-shadow: 0px 0px 10px 1px white;
   margin-top: 110px;
 }
-
+#story_card2{
+  position: absolute;
+  margin-top: 200px;
+  /*margin-left: -50%;*/
+  transform: translate(0, -50%);
+  color: white;
+  font-size: 32px;
+  font-family: Open Sans;
+  z-index: 12;
+}
 #back_story{
   background-color: #1B1B1B;
   position: fixed;
