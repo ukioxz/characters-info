@@ -80,7 +80,7 @@ body{
   }
   100% {
     transform: translateX(0));
-    width:500px;
+    width:100vw;
   }
 }
 nav{
@@ -469,8 +469,8 @@ nav .start-zhongli, a:nth-child(5):hover~.animation{
   height: 100vh;
   z-index: 3;
   padding-top: 300px;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 0;
+  padding-right: 0;
   padding-bottom: 100px;
   /*display: flex;
   justify-content: center;
