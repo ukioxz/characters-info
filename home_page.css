@@ -86,7 +86,18 @@
   bottom:50%;
   font-family: Open Sans;
   color: white;
-  font-size: 32px;
+  font-size: 4vw;
+  z-index: 3;
+  display: none;
+  -webkit-animation-name: runText;
+  -webkit-animation-duration: 1s;
+}
+#ayato_info{
+  position: relative;
+  bottom:50%;
+  font-family: Open Sans;
+  color: white;
+  font-size: 4vw;
   z-index: 3;
   display: none;
   -webkit-animation-name: runText;
@@ -113,6 +124,8 @@
   margin-top: 0;
   transition: 1s;
 }
+
+/*Ayato*/
 #ayato:hover #video-ayato{
   display:block;
   z-index: 1;
@@ -120,6 +133,11 @@
 #ayato:hover #img_ayato_home{
   display:none;
 }
+#ayato:hover #ayato_info{
+  display:block;
+}
+
+/*Zhongli*/
 #zhongli:hover #video-zhongli{
   display:block;
   z-index: 1;

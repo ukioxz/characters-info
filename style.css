@@ -50,6 +50,9 @@ body{
 .active.fade-left {
   animation: fade-left 1s ease-in;
 }
+.active.transform-left{
+  animation: transform-left 1s ease-in-out;
+}
 @keyframes fade-left {
   0% {
     transform: translateX(-100px);
@@ -68,6 +71,16 @@ body{
   100% {
     transform: translateX(0);
     opacity: 1;
+  }
+}
+@keyframes transform-left {
+  0% {
+    transform: translateX(300px);
+    width:0;
+  }
+  100% {
+    transform: translateX(0));
+    width:500px;
   }
 }
 nav{
@@ -459,14 +472,21 @@ nav .start-zhongli, a:nth-child(5):hover~.animation{
   padding-left: 20px;
   padding-right: 20px;
   padding-bottom: 100px;
-  display: flex;
+  /*display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center;*/
 }
-#back_scroll_img{
+.anim_block1{
+  position: relative;
+  width:auto;
+  height:200px;
+  background-color: pink;
+  margin-left:0;
+}
+/*#back_scroll_img{
   width: 100%;
   height: 115%;
-}
+}*/
 #desc_skin{
   position: absolute;
   right:50px;
