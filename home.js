@@ -25,6 +25,25 @@ const bt1 = document.getElementById('button')
 });
   });
 
+  let audioHome = document.querySelector('.sound_hover');
+
+  let dilucHome = document.getElementById('diluc');
+  let kaeyaHome = document.getElementById('kaeya');
+  let ayatoHome = document.getElementById('ayato');
+  let zhongliHome = document.getElementById('zhongli');
+
+  dilucHome.onmouseover = function () {
+          audioHome.play();
+      };
+  kaeyaHome.onmouseover = function () {
+          audioHome.play();
+      };
+  ayatoHome.onmouseover = function () {
+          audioHome.play();
+      };
+  zhongliHome.onmouseover = function () {
+          audioHome.play();
+      };
 /*let elemAyato = document.getElementById('ayato');
 let videoAyato = document.getElementById('video-ayato');
 let imgAyato = document.getElementById('img_ayato_home');

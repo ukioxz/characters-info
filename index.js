@@ -52,14 +52,21 @@ function showDivDiluc() {
 
   window.addEventListener("scroll", reveal);
 
-  const backAva = document.getElementById('card2')
+  const backAva = document.getElementById('card2');
+  let audioSt = document.querySelector('.sound_story');
+
 
     backAva.addEventListener('click', (event) => {
       window.scrollTo({
       top: 2780,
       behavior: "smooth"
   });
+  audioSt.play();
 });
+
+backAva.onmouseover = () => {
+  audioSt.play();
+};
 
    document.getElementById('img-Arataki').style.display = "none";
    document.getElementById('img-Diluc').style.display = "block";
