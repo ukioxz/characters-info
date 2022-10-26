@@ -1,0 +1,46 @@
+body{
+  background: #1B1B1B;
+}
+.center_block{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+#img_diluc{
+  position: relative;
+  height: 500px;
+  width: auto;
+  cursor: pointer;
+  pointer-events : none;
+  z-index: 2;
+}
+#rect1{
+  position: absolute;
+  width:200px;
+  height: 10px;
+  background-color: pink;
+  transition: 0.7s;
+  z-index: 1;
+}
+@keyframes run {
+  0% {
+    width:200px;
+    height: 10px;
+  }
+  50%{
+    width:600px;
+    height: 10px;
+  }
+  100% {
+    width:600px;
+    height: 200px;
+   }
+}
+#rect1:hover{
+ -webkit-animation: slide 0.5s forwards;
+ -webkit-animation-name: run;
+ -webkit-animation-duration: 1s;
+}

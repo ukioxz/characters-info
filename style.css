@@ -467,43 +467,15 @@ nav .start-zhongli, a:nth-child(5):hover~.animation{
   right:0;
   left:0;
   width:auto;
-  height: 100vh;
+  height: 800px;
   z-index: 3;
   padding-top: 200px;
   padding-left: 0;
   padding-right: 0;
   padding-bottom: 200px;
-  /*display: flex;
+  display: flex;
   justify-content: center;
-  align-items: center;*/
-}
-.anim_block1{
-  position: relative;
-  width:auto;
-  height:200px;
-  background-color: #470c0e;
-  z-index: 4;
-}
-.anim_block2{
-  position: relative;
-  width:auto;
-  height:200px;
-  background-color: #470c0e;
-  z-index: 4;
-}
-.anim_block3{
-  position: relative;
-  width:auto;
-  height:200px;
-  background-color: #470c0e;
-  z-index: 4;
-}
-.anim_block4{
-  position: relative;
-  width:auto;
-  height:200px;
-  background-color: #470c0e;
-  z-index: 4;
+  align-items: center;
 }
 
 /*#back_scroll_img{
@@ -521,16 +493,6 @@ nav .start-zhongli, a:nth-child(5):hover~.animation{
   opacity:0.3;
   padding: 5px;
 }
-#header_diluc_skin{
-  position: fixed;
-  right:660px;
-  top:100px;
-  color: white;
-  font-size: 100px;
-  font-family: Playfair Display;
-  z-index: 5;
-  padding: 5px;
-}
 #back_scroll_build{
   background-color: #1B1B1B;
   position: absolute;
@@ -543,7 +505,7 @@ nav .start-zhongli, a:nth-child(5):hover~.animation{
   display: flex;
   justify-content: center;
 }
-#back_opacity_diluc_build{
+/*#back_opacity_diluc_build{
   position: fixed;
   min-width: 60%;
 	min-height: 60%;
@@ -572,7 +534,7 @@ nav .start-zhongli, a:nth-child(5):hover~.animation{
   margin-top:620px;
 	transform: rotate(35deg);
   z-index: 10;
-}
+}*/
 #cards{
   position: relative;
   display: flex;
