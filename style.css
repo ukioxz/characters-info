@@ -515,6 +515,7 @@ nav .start-zhongli, a:nth-child(5):hover~.animation{
 }
 #build_1{
   display: flex;
+  margin-top: 100px;
   height: 700px;
   width:100vw;
   position: absolute;
@@ -574,8 +575,37 @@ nav .start-zhongli, a:nth-child(5):hover~.animation{
   justify-content: center;
   align-items: center;
   width: calc(100%/3);
-  height: 700px;
+  height: 600px;
   background-color: orange;
+}
+#build_block_1_ava{
+  position: absolute;
+  background-color: #470c0e;
+  width: 250px;
+  height: 200px;
+  margin-top: 50px;
+  max-width: 100%;
+}
+#build_block1_img{
+  position: relative;
+  max-width: 100%;
+}
+#header_build{
+  position: fixed;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100vw;
+  height: 200px;
+  /*background: pink;*/
+}
+#name_diluc_pyro{
+  margin-top: 0;
+  margin-left: 0;
+  color: #fff;
+  text-shadow:0 0 7px #fff;
+  font-family: Ubuntu;
+  font-size: 64px;
 }
 /*#back_opacity_diluc_build{
   position: fixed;
