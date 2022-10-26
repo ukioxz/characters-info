@@ -505,6 +505,14 @@ nav .start-zhongli, a:nth-child(5):hover~.animation{
   display: flex;
   justify-content: center;
 }
+#back_build{
+  position: relative;
+  width: auto;
+  height: 100%;
+  max-width: 100%;
+  object-fit: cover;
+  opacity: 0.3;
+}
 /*#back_opacity_diluc_build{
   position: fixed;
   min-width: 60%;

@@ -52,11 +52,12 @@ function showDivDiluc() {
 
   window.addEventListener("scroll", reveal);
 
-  const backAva = document.getElementById('card2');
+  const cardStory = document.getElementById('card2');
+  const cardBuild = document.getElementById('card1');
   let audioSt = document.querySelector('.sound_story');
 
 
-    backAva.addEventListener('click', (event) => {
+    cardStory.addEventListener('click', (event) => {
       window.scrollTo({
       top: 2780,
       behavior: "smooth"
@@ -64,7 +65,18 @@ function showDivDiluc() {
   audioSt.play();
 });
 
-backAva.onmouseover = () => {
+cardBuild.addEventListener('click', (event) => {
+  window.scrollTo({
+  top: 2055,
+  behavior: "smooth"
+});
+audioSt.play();
+});
+
+cardStory.onmouseover = () => {
+  audioSt.play();
+};
+cardBuild.onmouseover = () => {
   audioSt.play();
 };
 
