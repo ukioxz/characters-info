@@ -516,7 +516,7 @@ nav .start-zhongli, a:nth-child(5):hover~.animation{
 #build_1{
   display: flex;
   margin-top: 100px;
-  height: 700px;
+  height: 800px;
   width:100vw;
   position: absolute;
   justify-content: center;
@@ -527,11 +527,14 @@ nav .start-zhongli, a:nth-child(5):hover~.animation{
 #build_block_1{
   position: relative;
   display: flex;
-  justify-content: center;
+  justify-content: start;
   align-items: center;
+  flex-direction: column;
+  /*flex-wrap: wrap;*/
   width: calc(100%/3);
-  height: 300px;
-  background-color: green;
+  height: 400px;
+  /*background-color: green;*/
+  backdrop-filter: blur(5px);
 }
 #build_block_2{
   position: relative;
@@ -549,7 +552,15 @@ nav .start-zhongli, a:nth-child(5):hover~.animation{
   align-items: center;
   width: calc(100%/3);
   height: 200px;
-  background-color: yellow;
+  /*background-color: yellow;*/
+  border-bottom-width:3px;
+  border-bottom-style: solid;
+  /*border-image: linear-gradient(to bottom, white, rgba(0,0,0,0)) 1 100%;*/
+  border-image: linear-gradient(to right, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.1))1;
+  /*border-image: linear-gradient(90deg,
+    rgba(255, 255, 255, 0.6) 0%,
+    rgba(255, 255, 255, 1) 50%,
+    rgba(255, 255, 255, 0.6) 100%);*/
 }
 #build_block_4{
   position: relative;
@@ -558,7 +569,12 @@ nav .start-zhongli, a:nth-child(5):hover~.animation{
   align-items: center;
   width: calc(100%/3);
   height: 200px;
-  background-color: pink;
+  border-bottom-width:3px;
+  border-bottom-style: solid;
+  border-image: linear-gradient(to right, rgba(255, 255, 255, 0.0), rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.0))1;
+  /*background-color: pink;*/
+  /*border-right: 3px solid white;
+  border-bottom: 3px solid white;*/
 }
 #build_block_5{
   position: relative;
@@ -567,7 +583,8 @@ nav .start-zhongli, a:nth-child(5):hover~.animation{
   align-items: center;
   width: calc(100%/3);
   height: 200px;
-  background-color: blue;
+  /*background-color: blue;*/
+/*  border-right: 3px solid white;*/
 }
 #build_block_6{
   position: relative;
@@ -576,15 +593,24 @@ nav .start-zhongli, a:nth-child(5):hover~.animation{
   align-items: center;
   width: calc(100%/3);
   height: 600px;
-  background-color: orange;
+  border-left-width:3px;
+  border-left-style: solid;
+  border-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.0), rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.0))1;
+  /*background-color: orange;*/
+}
+.text-info{
+  position: relative;
+  color: #fff;
+  font-family: Ubuntu;
+  font-size: 21px;
 }
 #build_block_1_ava{
   position: absolute;
   background-color: #470c0e;
   width: 250px;
   height: 200px;
-  margin-top: 50px;
-  max-width: 100%;
+  margin-top: 140px;
+  max-width: 250px;
 }
 #build_block1_img{
   position: relative;
@@ -600,12 +626,22 @@ nav .start-zhongli, a:nth-child(5):hover~.animation{
   /*background: pink;*/
 }
 #name_diluc_pyro{
-  margin-top: 0;
-  margin-left: 0;
+  position: relative;
   color: #fff;
   text-shadow:0 0 7px #fff;
   font-family: Ubuntu;
   font-size: 64px;
+}
+#pyro_icon{
+  position: relative;
+  height: 80px;
+  width: auto;
+}
+#min-info-diluc{
+  position: relative;
+  color: #fff;
+  font-family: Ubuntu;
+  font-size: 21px;
 }
 /*#back_opacity_diluc_build{
   position: fixed;
