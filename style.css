@@ -507,7 +507,7 @@ nav .start-zhongli, a:nth-child(5):hover~.animation{
 }
 #back_build{
   position: relative;
-  width: auto;
+  width: 100vw;
   height: 100%;
   max-width: 100%;
   object-fit: cover;
